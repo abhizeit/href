@@ -196,7 +196,7 @@ const Home = (props: propsData) => {
 export default Home;
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
-  const { data } = await axios.get("https://href-abhizeit.vercel.app/api");
+  const { data } = await axios.get("https://h-ref.vercel.app/api");
   return {
     props: {
       res: data.data,
